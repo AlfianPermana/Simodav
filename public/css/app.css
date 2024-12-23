@@ -1,0 +1,29 @@
+:root {
+	--tblr-font-sans-serif: 'Nunito', sans-serif;
+
+	--tblr-primary: #8a3119;
+	--tblr-primary-rgb: 138, 50, 25;
+	--tblr-primary-darken: #772610;
+	--tblr-primary-darken-rgb: 119, 38, 16;
+	--tblr-primary-lt: #e2d7d4;
+	--tblr-primary-lt-rgb: 226, 215, 212;
+
+	--tblr-border-radius: 5px;
+	--tblr-modal-border-radius: 5px;
+
+	--tblr-link-color: var(--tblr-primary);
+	--tblr-link-color-rgb: var(--tblr-primary-rgb);
+	--tblr-link-hover-color: var(--tblr-primary-darken);
+	--tblr-link-hover-color-rgb: var(--tblr-primary-darken-rgb);
+	--tblr-border-color: rgba(var(--tblr-primary-rgb), 0.2);
+	--tblr-border-color-translucent: rgba(var(--tblr-primary-rgb), 0.1);
+}
+
+.form-selectgroup-label {
+	border-radius: var(--tblr-border-radius);
+}
+
+.square {
+	aspect-ratio: 4/3;
+	object-fit: cover;
+}
